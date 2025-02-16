@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     cout << "Permutation with Repetition" << endl;
-    int red, blue, sum, red_fac=1, blue_fac=1, sum_fac=1, result;
+    long long red, blue, sum, red_fac=1, blue_fac=1, sum_fac=1, result;
     cout << "Enter the number of red ball : ";
     cin >> red; 
     cout << "Enter the number of blue ball : ";
