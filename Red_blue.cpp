@@ -21,6 +21,6 @@ int main() {
         blue_fac = blue_fac*i;
     }
     result = sum_fac/(red_fac*blue_fac);//(a+b)!/(a!*b!)
-    cout << "Number of possibilities for arranging balls : "<< result << " ways";
+    cout << "Number of possibilities for arranging balls = "<< result << " ways";
     return 0;
 }
