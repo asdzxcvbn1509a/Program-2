@@ -74,13 +74,13 @@ void area() {
     if (choice == 1) {
         a.square();
     }
-    if (choice == 2) {
+    else if (choice == 2) {
         a.rectancle();
     }
-    if (choice == 3) {
+    else if (choice == 3) {
         a.triangle();
     }
-    if (choice == 4) {
+    else if (choice == 4) {
         a.rhombus();
     }
 }
@@ -119,10 +119,10 @@ int main() {
     if (num == 1) {
         dice();
     }
-    if (num == 2) {
+    else if (num == 2) {
         area();
     }
-    if (num == 3) {
+    else if (num == 3) {
         ball();
     }
     
